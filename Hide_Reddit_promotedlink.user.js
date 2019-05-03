@@ -8,11 +8,6 @@
 // @grant    none
 // ==/UserScript==
 
-// function mark_ads() {
-//     let spans = Array.filter(document.getElementsByTagName("span"), (span) => span.textContent == "promoted")
-//     spans.forEach((span) => span.parentElement.parentElement.parentElement.parentElement.style = "background-color: yellow")
-// }
-
 function hide_ads() {
     let promoted_links = document.getElementsByClassName("promotedlink")
     for (let promo of promoted_links) {
