@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name     Hide Reddit's promoted posts
-// @namespace hide_Reddits_promoted_posts
-// @description Hide Reddit's promoted posts
+// @namespace HideRedditsPromotedPosts
+// @description Hide Reddit's promoted links so they don't bother you.
 // @include  https://www.reddit.com/
 // @include  https://www.reddit.com/r/*
-// @version  1
+// @version  1.01
 // @grant    none
 // ==/UserScript==
 
