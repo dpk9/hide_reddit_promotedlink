@@ -9,12 +9,12 @@
 // ==/UserScript==
 
 function hide_ads() {
-    let promoted_links = document.getElementsByClassName("promotedlink")
-    for (let promo of promoted_links) {
-        promo.style.display = "none"
+    let promos = document.getElementsByClassName("promotedlink");
+    for (let promo of promos) {
+        promo.style.display = "none";
     }
 }
 
 hide_ads()
 //Also rerun the code each time document change (i.e new posts are added when user scroll down)
-document.addEventListener("DOMNodeInserted", hide_ads)
+document.addEventListener("DOMNodeInserted", hide_ads);
